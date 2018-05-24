@@ -1,15 +1,15 @@
-baseURL = "snippet.michaelholley.us"
+baseURL = "kb.michaelholley.us"
 languageCode = "en-US"
 defaultContentLanguage = "en"
 
-title = "Code Snippets and OS Commands"
+title = "My Sys Admin Knowlege Base"
 theme = "hugo-theme-learn"
 metaDataFormat = "yaml"
-defaultContentLanguageInSubdir= true
+defaultContentLanguageInSubdir= false
 
 [params]
-  editURL = "https://github.com/michae1ho11ey/snippets/edit/master/content/"
-  description = "A collection of code snippets and OS commands"
+  editURL = "https://github.com/michae1ho11ey/kb/edit/master/content/"
+  description = "My Sys Admin Knowlege Base"
   author = "Michael Holley"
   showVisitedLinks = true
 
@@ -18,7 +18,7 @@ home = [ "HTML", "RSS", "JSON"]
 
 [Languages]
 [Languages.en]
-title = "Code Snippets and OS Commands"
+title = "My Sys Admin Knowlege Base"
 weight = 1
 languageName = "English"
 
@@ -41,32 +41,5 @@ weight = 20
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fa fa-fw fa-bullhorn'></i> Credits"
-url = "/credits"
-weight = 30
-
-[Languages.fr]
-title = "Documentation du thème Hugo Learn"
-weight = 2
-languageName = "Français"
-
-[[Languages.fr.menu.shortcuts]]
-name = "<i class='fa fa-fw fa-github'></i> Repo Github"
-identifier = "ds"
-url = "https://github.com/matcornic/hugo-theme-learn"
-weight = 10
-
-[[Languages.fr.menu.shortcuts]]
-name = "<i class='fa fa-fw fa-camera'></i> Vitrine"
-url = "/showcase"
-weight = 11
-
-[[Languages.fr.menu.shortcuts]]
-name = "<i class='fa fa-fw fa-bookmark'></i> Documentation Hugo"
-identifier = "hugodoc"
-url = "https://gohugo.io/"
-weight = 20
-
-[[Languages.fr.menu.shortcuts]]
-name = "<i class='fa fa-fw fa-bullhorn'></i> Crédits"
 url = "/credits"
 weight = 30
