@@ -15,12 +15,12 @@ defaultContentLanguageInSubdir= true
   showVisitedLinks = false
 # Disable search function. It will hide search bar
   disableSearch = false
-# Javascript and CSS cache are automatically busted when new version of site is generated. 
+# Javascript and CSS cache are automatically busted when new version of site is generated.
 # Set this to true to disable this behavior (some proxies don't handle well this optimization)
   disableAssetsBusting = false
 # Set this to true to disable copy-to-clipboard button for inline code.
   disableInlineCopyToClipBoard = false
-# A title for shortcuts in menu is set by default. Set this to true to disable it. 
+# A title for shortcuts in menu is set by default. Set this to true to disable it.
   disableShortcutsTitle = false
 # When using mulitlingual website, disable the switch language button.
   disableLanguageSwitchingButton = false
@@ -32,30 +32,22 @@ defaultContentLanguageInSubdir= true
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
-[Languages]
-[Languages.en]
-title = "Code Snippets and OS Commands"
-weight = 1
-languageName = "English"
-
-[[Languages.en.menu.shortcuts]]
+[[menu.shortcuts]]
 name = "<i class='fa fa-fw fa-github'></i> Github repo"
-identifier = "ds"
 url = "https://github.com/michae1ho11ey/snippets"
 weight = 10
 
-[[Languages.en.menu.shortcuts]]
-name = "<i class='fa fa-fw fa-camera'></i> Showcases"
-url = "showcase"
+[[menu.shortcuts]]
+name = "<i class='fa fa-fw fa-external-link'></i> MichaelHolley.us"
+url = "https://michaelholley.us"
 weight = 11
 
-[[Languages.en.menu.shortcuts]]
-name = "<i class='fa fa-fw fa-bookmark'></i> Hugo Documentation"
-identifier = "hugodoc"
-url = "https://gohugo.io/"
-weight = 20
+[[menu.shortcuts]]
+name = "<i class='fa fa-fw fa-power-off'></i> Ilex Tech"
+url = "https://ilextechnologies.com"
+weight = 12
 
-[[Languages.en.menu.shortcuts]]
-name = "<i class='fa fa-fw fa-bullhorn'></i> Credits"
-url = "/credits"
-weight = 30
+[[menu.shortcuts]]
+name = "<i class='fa fa-fw fa-pencil-square-o'></i> Digital Ocean Articles"
+url = "https://www.digitalocean.com/community/users/michaelholley?primary_filter=tutorials"
+weight = 20
