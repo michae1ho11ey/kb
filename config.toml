@@ -1,24 +1,40 @@
-baseURL = "kb.michaelholley.us"
+baseURL = "snippet.michaelholley.us"
 languageCode = "en-US"
 defaultContentLanguage = "en"
 
-title = "My Sys Admin Knowlege Base"
+title = "Code Snippets and OS Commands"
 theme = "hugo-theme-learn"
 metaDataFormat = "yaml"
-defaultContentLanguageInSubdir= false
+defaultContentLanguageInSubdir= true
 
 [params]
-  editURL = "https://github.com/michae1ho11ey/kb/edit/master/content/"
-  description = "My Sys Admin Knowlege Base"
+  editURL = "https://github.com/michae1ho11ey/snippets/edit/master/content/"
+  description = "A collection of code snippets and OS commands"
   author = "Michael Holley"
-  showVisitedLinks = true
+# Shows a checkmark for visited pages on the menu
+  showVisitedLinks = false
+# Disable search function. It will hide search bar
+  disableSearch = false
+# Javascript and CSS cache are automatically busted when new version of site is generated. 
+# Set this to true to disable this behavior (some proxies don't handle well this optimization)
+  disableAssetsBusting = false
+# Set this to true to disable copy-to-clipboard button for inline code.
+  disableInlineCopyToClipBoard = false
+# A title for shortcuts in menu is set by default. Set this to true to disable it. 
+  disableShortcutsTitle = false
+# When using mulitlingual website, disable the switch language button.
+  disableLanguageSwitchingButton = false
+# Order sections in menu by "weight" or "title". Default to "weight"
+  ordersectionsby = "weight"
+# Change default color scheme with a variant one. Can be "red", "blue", "green".
+  themeVariant = "blue"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
 [Languages]
 [Languages.en]
-title = "My Sys Admin Knowlege Base"
+title = "Code Snippets and OS Commands"
 weight = 1
 languageName = "English"
 
